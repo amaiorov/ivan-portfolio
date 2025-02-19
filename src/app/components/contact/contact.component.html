@@ -1,0 +1,49 @@
+<h1>Contact</h1>
+
+<p>
+  This is the contact page
+</p>
+
+
+<!-- <img src="assets/img/projects/nyanko/hero.jpg"
+  srcset="assets/img/projects/audi/audi_0.jpg 160w,
+          assets/img/projects/chair/hero.jpg 320w,
+          assets/img/projects/kot/1.jpg 640w,
+          assets/img/projects/alexey/hero.jpg 1280w"
+  sizes="(max-width: 480px) 100vw, (max-width: 900px) 33vw, 254px"> -->
+
+<!-- <img src="assets/img/test-default.jpg"
+      srcset="assets/img/test-320.jpg 320w,
+              assets/img/test-480.jpg 480w,
+              assets/img/test-800.jpg 800w"
+      sizes="(max-width: 320px) 280px,
+              (max-width: 480px) 480px,
+              800px"
+> -->
+
+<h1>img srcset</h1>
+<img srcset="assets/img/test-320.jpg 320w,
+            assets/img/test-480.jpg 480w,
+            assets/img/test-800.jpg 800w,
+            assets/img/huge.jpg 3200w"
+     sizes="(max-width: 320px) 320px,
+            (max-width: 480px) 480px,
+            (max-width: 800px) 800px,
+            1920px"
+     src="assets/img/projects/tone/sounddesign.jpg" />
+
+<h1>picture</h1>
+<picture>
+  <source media="(max-width: 480px)" srcset="assets/img/test2-480.jpg">
+  <source media="(max-width: 768px)" srcset="assets/img/test2-768.jpg">
+  <source media="(max-width: 1440px)" srcset="assets/img/test2-1440.jpg">
+  <source media="(max-width: 1920px)" srcset="assets/img/test2-1920.jpg">
+  <source srcset="assets/img/huge.jpg">
+  <img src="assets/img/huge.jpg" loading="lazy" />
+</picture>
+
+<!-- <picture>
+  <source media="(max-width: 799px)" srcset="assets/test-mobile.jpg">
+  <source media="(min-width: 800px)" srcset="assets/test-desktop.jpg">
+  <img src="assets/img/projects/alexey/hero.jpg" style="width: 100%;">
+</picture> -->

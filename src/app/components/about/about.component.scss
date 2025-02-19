@@ -1,0 +1,142 @@
+@import '/src/assets/scss/variables.scss';
+
+:host {
+  display: block;
+  margin: 40px 0 40px;
+  @media (max-width: $break-medium) {
+    margin-top: 46px;
+  }
+}
+.avatar {
+  text-align: center;
+  .me {
+    display: inline-block;
+    width: 290px;
+    height: 290px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-bottom: 46px;
+    @media (max-width: $break-medium) {
+      width: 200px;
+      height: 200px;
+    }
+    img {
+      filter: brightness(-0.1);
+      height: 100%;
+      width: auto;
+    }
+  }
+  h1 {
+    font-size: 3.4rem;
+    @media (max-width: $break-medium) {
+      font-size: 2.6rem;
+    }
+  }
+  p {
+    font-size: 2.7rem;
+    font-weight: 300;
+    margin: 8px 0 60px;
+    @media (max-width: $break-medium) {
+      font-size: 1.7rem;
+      width: 80%;
+      margin: 10px auto;
+      line-height: 2.7rem;
+    }
+  }
+}
+
+section {
+  margin-bottom: 80px;
+  @media (max-width: $break-medium) {
+    margin-bottom: 60px;
+  }
+  h3 {
+    font-size: 2.4rem;
+    margin-bottom: 45px;
+    @media (max-width: $break-medium) {
+      font-size: 2.6rem;
+      margin-bottom: 30px;
+    }
+  }
+  ul {
+    font-size: 2.2rem;
+    font-weight: 300;
+    @media (max-width: $break-medium) {
+      font-size: 2.2rem;
+    }
+    li {
+      line-height: 3.4rem;
+      list-style-type: disc;
+      margin-left: 64px;
+      @media (max-width: $break-medium) {
+        margin-left: 18px;
+      }
+    }
+  }
+  a {
+    text-decoration: underline;
+  }
+  &.skills {
+
+  }
+  &.history {
+    ul {
+      font-size: 2.4rem;
+      @media (max-width: $break-medium) {
+        font-size: 2rem;
+      }
+      li {
+        margin-bottom: 60px;
+        position: relative;
+        h4 {
+          font-family: 'ff-dagny-web-pro', sans-serif;
+          font-size: 2.5rem;
+          font-weight: 400;
+          // margin-bottom: 10px;
+          position: relative;
+          @media (max-width: $break-medium) {
+            font-size: 2.1rem;
+            line-height: 2.4rem;
+          }
+          &:after {
+            background: $gray-97;
+            content: '';
+            width: 12%;
+            height: 1px;
+            position: absolute;
+            // left: calc(100% - 350px);
+            right: 24%;
+            top: 50%;
+            @media (max-width: $break-medium) {
+              content: none;
+            }
+          }
+        }
+        .description {
+          font-size: 2.1rem;
+          font-weight: 300;
+          @media (max-width: $break-medium) {
+            span {
+              display: block;
+              height: 0;
+              overflow: hidden;
+            }
+          }
+        }
+        .time {
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-weight: 300;
+          @media (max-width: $break-medium) {
+            position: static;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  &.download {
+    text-align: center;
+  }
+}

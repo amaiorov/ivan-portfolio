@@ -1,0 +1,135 @@
+<!-- <app-filter></app-filter> -->
+
+<!-- project image -->
+<div class="hero">
+  <!-- <img src="{{ currentProject.heroUrl }}" onError="this.nextSibling.classList.add('no-image')" /> -->
+  <!-- <div class="wrapper" [ngStyle]="{'background-image': 'url(' + currentProject.heroUrl + ')'}" [ngClass]="{'no-image': !currentProject.heroUrl}"></div> -->
+  <div class="wrapper">
+    <picture>
+      <source media="(max-width: 480px)" srcset="{{ getSrc(currentProject.heroUrl, 480) }}">
+      <source media="(max-width: 768px)" srcset="{{ getSrc(currentProject.heroUrl, 768) }}">
+      <source media="(max-width: 1440px)" srcset="{{ getSrc(currentProject.heroUrl, 1440) }}">
+      <source media="(max-width: 1920px)" srcset="{{ getSrc(currentProject.heroUrl, 1920) }}">
+      <source srcset="{{ currentProject.heroUrl }}">
+      <img src="{{ currentProject.heroUrl }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')"  alt="{{ currentProject.shortTitle || currentProject.heroUrl }}" />
+    </picture>
+  </div>
+</div>
+
+<!-- project title -->
+<h1>{{ currentProject?.longTitle }}</h1>
+
+<!-- project duration -->
+<section class="duration">
+  <span *ngIf="currentProject.startDate === currentProject.endDate">
+    {{ currentProject.startDate }}
+  </span>
+  <span *ngIf="currentProject.startDate !== currentProject.endDate">
+    {{ currentProject.startDate }} &mdash; {{ currentProject.endDate || 'current' }}
+  </span>
+</section>
+
+<!-- project description -->
+<section class="description">
+  <div [innerHTML]="currentProject?.description | concat"></div>
+</section>
+
+<!-- project client -->
+<section class="client">
+  <h3>Client</h3>
+  <div>{{ currentProject?.client }}</div>
+</section>
+
+<!-- project role -->
+<section class="role">
+  <h3>Role</h3>
+  <div class="tags">
+    <span *ngFor="let tag of currentProject.tags">{{ tag }}</span>
+  </div>
+</section>
+
+<!-- blocks -->
+<section class="blocks" *ngIf="currentProject.blocks">
+  <div *ngFor="let block of currentProject.blocks" [ngClass]="{'small-margin': block['small-margin']}">
+    <h4 *ngIf="block.headline" class="headline">{{ block.headline }}</h4>
+    <div
+      *ngIf="block.images"
+      class="images"
+      [class.h]="block['layout'] === 'h'"
+      [class.v]="block['layout'] === 'v'"
+      [class.sq]="block.images.length === 4"
+      [ngClass]="{'inline-img': block['inline-img']}">
+    <!-- <div *ngIf="block.image" class="images" [ngClass]="{'inline-img': block['inline-img'], 'layout': block['layout']}"> -->
+      <div *ngFor="let image of block.images">
+        <!-- <img *ngIf="!image.video" src="{{ image.url }}" onError="this.classList.add('no-image')" loading="lazy" /> -->
+        <picture *ngIf="!image.video" (click)="showGallery($event)" [attr.data-src]="image.url">
+          <source media="(max-width: 480px)" srcset="{{ getSrc(image.url, 480) }}">
+          <source media="(max-width: 768px)" srcset="{{ getSrc(image.url, 768) }}">
+          <source media="(max-width: 1440px)" srcset="{{ getSrc(image.url, 1440) }}">
+          <source media="(max-width: 1920px)" srcset="{{ getSrc(image.url, 1920) }}">
+          <source srcset="{{ image.url }}">
+          <img src="{{ image.url }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')" alt="{{ image.caption || image.url }}" />
+        </picture>
+
+        <div *ngIf="image.video" class="video-wrapper" [class.h]="image.layout === 'h'" [class.v]="image.layout === 'v'">
+          <video src="{{ image.url }}" onError="this.classList.add('no-image')" playsinline autoplay muted loop></video>
+        </div>
+        <span *ngIf="image.caption" class="caption">{{ image.caption }}</span>
+      </div>
+      <span *ngIf="block['group-caption']" class="group-caption">{{ block['group-caption'] }}</span>
+    </div>
+    <div *ngIf="block.description" class="description" [innerHTML]="block.description | concat"></div>
+    <!-- <div class="description"> -->
+      <!-- <ng-container *ngFor="let item of block.description" [outerHTML]="item"></ng-container> -->
+    <!-- </div> -->
+    <app-slider *ngIf="block.gallery" [slides]="block.gallery"></app-slider>
+
+  </div>
+</section>
+
+<!-- <ul class="gallery">
+  <li *ngFor="let slide of currentProject.gallery">
+    <img src="{{ slide.url }}" />
+    <span>{{ slide.title }}</span>
+  </li>
+</ul> -->
+
+<section class="related">
+  <h3>Related Work</h3>
+  <ul>
+    <ng-template ngFor let-project [ngForOf]="relatedProjects">
+      <li *ngIf="project">
+        <a routerLink="{{ '/project/' + project.id }}">
+          <!-- <img src="{{ project.heroUrl }}" onError="this.nextSibling.classList.add('no-image')" /> -->
+          <!-- <div class="thumb" [ngStyle]="{'background-image': 'url(' + project.heroUrl + ')'}"></div> -->
+          <div class="thumb">
+            <picture>
+              <source media="(max-width: 480px)" srcset="{{ getSrc(project.heroUrl, 480) }}">
+              <source media="(max-width: 768px)" srcset="{{ getSrc(project.heroUrl, 768) }}">
+              <source media="(max-width: 1440px)" srcset="{{ getSrc(project.heroUrl, 1440) }}">
+              <source media="(max-width: 1920px)" srcset="{{ getSrc(project.heroUrl, 1920) }}">
+              <source srcset="{{ project.heroUrl }}">
+              <img src="{{ project.heroUrl }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')" alt="{{ project.shortTitle || project.heroUrl }}" />
+            </picture>
+          </div>
+          <h4>{{ project.shortTitle }}</h4>
+          <div class="tags">
+            <span *ngFor="let tag of project.tags">{{ tag }}</span>
+          </div>
+        </a>
+      </li>
+    </ng-template>
+  </ul>
+</section>
+
+<section class="fullscreen-gallery-wrapper" *ngIf="isGalleryVisible">
+  <div class="fullscreen-gallery" #fullscreenGallery>
+    <div *ngFor="let image of images" (click)="rotateImage($event)" [attr.data-src]="image">
+      <img src="{{ image }}" />
+    </div>
+  </div>
+  <span class="pagination"> {{ currentImage }} / {{ totalImages }}</span>
+  <span class="close" (click)="hideGallery()">+</span>
+  <span class="prev">&lsaquo;</span>
+  <span class="next">&rsaquo;</span>
+</section>

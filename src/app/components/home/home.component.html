@@ -1,0 +1,29 @@
+<h1>Hello, I'm Ivan!</h1>
+<p>Armor builder with 5+ years of experience in armor design and construction, flawlessly executing projects from concept to completion</p>
+<a routerLink="/about" class="button black">See more about me</a>
+<div class="filter-wrapper">
+  <app-filter></app-filter>
+</div>
+<ul class="projects">
+  <li *ngFor="let project of projects">
+    <a routerLink="{{ '/project/' + project.id }}">
+      <!-- <img [src]="project.heroUrl" onError="this.nextSibling.classList.add('no-image')" /> -->
+      <!-- <div class="hero" [ngStyle]="{'background-image': 'url(' + project.heroUrl + ')'}" [ngClass]="{'no-image': !project.heroUrl}"></div> -->
+      <div class="hero">
+        <picture>
+          <source media="(max-width: 480px)" srcset="{{ getSrc(project.heroUrl, 480) }}">
+          <source media="(max-width: 768px)" srcset="{{ getSrc(project.heroUrl, 768) }}">
+          <source media="(max-width: 1440px)" srcset="{{ getSrc(project.heroUrl, 1440) }}">
+          <source media="(max-width: 1920px)" srcset="{{ getSrc(project.heroUrl, 1920) }}">
+          <source srcset="{{ project.heroUrl }}">
+          <img src="{{ project.heroUrl }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')" alt="{{ project.shortTitle || project.heroUrl }}" />
+        </picture>
+      </div>
+      <h4>{{ project.shortTitle }}</h4>
+      <div class="tags">
+        <span *ngFor="let tag of project.tags">{{ tag }}</span>
+      </div>
+      <!-- <span class="category">{{ project.category | titlecase }}</span> -->
+    </a>
+  </li>
+</ul>

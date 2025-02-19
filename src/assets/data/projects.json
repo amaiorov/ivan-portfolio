@@ -1,0 +1,2010 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "UI/UX, Web",
+      "route": "ui-ux-web"
+    },
+    {
+      "id": 2,
+      "name": "Industrial/Interior",
+      "route": "industrial-interior"
+    },
+    {
+      "id": 3,
+      "name": "Graphic",
+      "route": "graphic"
+    }
+  ],
+  "projects": [
+    {
+      "id": "alexey",
+      "category": 2,
+      "tags": [
+        "Product Design",
+        "Print Design",
+        "Sale Strategy"
+      ],
+      "shortTitle": "Alexey",
+      "longTitle": "This is the danna project",
+      "startDate": "2015",
+      "client": "danna",
+      "heroUrl": "assets/img/projects/alexey/hero.jpg",
+      "description": "<p>danna-san, suteki! ♥♥♥</p>",
+      "blocks": [
+        {
+          "description": [
+            "<p>test</p>",
+            "<q>cat quote</q>",
+            "<p>test</p>",
+            "<p>test</p>"
+          ]
+        },
+        {
+          "headline": "This is a video",
+          "images": [
+            {
+              "url": "assets/img/projects/alexey/test.mp4",
+              "caption": "this is a caption",
+              "video": true
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true
+        },
+        {
+          "headline": "1 image inline",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true
+        },
+        {
+          "headline": "1 image inline w/ caption",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg",
+              "caption": "this is a caption"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true
+        },
+        {
+          "headline": "2 images inline horizontal",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true,
+          "layout": "h"
+        },
+        {
+          "headline": "2 images inline horizontal w/ caption",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true,
+          "group-caption": "this is a group caption",
+          "layout": "h"
+        },
+        {
+          "headline": "2 images inline vertical",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "2 images inline vertical w/ caption",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg",
+              "caption": "installed in a meeting room of the music event production "
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg",
+              "caption": "installed in a meeting room of the music event production "
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "3 images inline horizontal",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_hero.jpg"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true,
+          "layout": "h"
+        },
+        {
+          "headline": "3 images inline horizontal w/ caption",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_hero.jpg"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true,
+          "group-caption": "this is a group caption",
+          "layout": "h"
+        },
+        {
+          "headline": "3 images inline vertical",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_hero.jpg"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "3 images inline vertical w/ caption",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg",
+              "caption": "image caption"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg",
+              "caption": "image caption"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_hero.jpg",
+              "caption": "image caption"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "4 images inline w/ caption",
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_hero.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_im3.jpg"
+            }
+          ],
+          "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum laoreet sem, eget tincidunt turpis sollicitudin vel. Nulla lacinia turpis diam, sed eleifend ex viverra ut. Nullam convallis tellus vitae magna rhoncus, at commodo orci mollis.</p>",
+          "inline-img": true,
+          "group-caption": "this is a group caption"
+        }
+      ],
+      "related": [
+        "chair",
+        "table"
+      ]
+    },
+    {
+      "id": "museumapp",
+      "category": 1,
+      "tags": [
+        "UI/UX design"
+      ],
+      "shortTitle": "The NY Museum - Museum Virtual Map App",
+      "longTitle": "The NY Museum - Museum Virtual Map App",
+      "startDate": "2021",
+      "endDate": "2022",
+      "client": "Case Study on Google UX Design Certificate Course",
+      "heroUrl": "assets/img/projects/museum/hero_2.jpg",
+      "description": "<p>I created an app for “The NY Museum” (a made up museum in New York) as part of a case study for the Google UX Design Certificate Course.</p><p>This virtual map app helps customers by leading them to art anywhere in the museum. The map moves together with the user so that they don’t get lost in the museum and can enjoy art efficiently in a limited time.</p><p>This app has another feature: it can function as a virtual museum tour that lets users enjoy art from their home whenever they want to. However, this prototype focuses on only the virtual map feature.</p>",
+      "blocks": [
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/inhand_1.jpg"
+            },
+            {
+              "url": "assets/img/projects/museum/inhand_2_2.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "The problem",
+          "description": "<p>The NY Museum is huge and has many categories of art, so customers tend to get lost; as a result, they feel that they have wasted time and this leaves them frustrated.</p>"
+        },
+        {
+          "headline": "The goal",
+          "description": "<p>The virtual map app leads customers through the museum by letting them  specify which art they want to see and then creating a route for them. As a result, customers don’t get lost and can enjoy the museum experience efficiently.</p>"
+        },
+        {
+          "headline": "User research: summary",
+          "description": "<p>I conducted interviews and made empathy maps to find what users’ needs are. Research identified a primary user group that tended to get lost in the museum and was frustrated by it. This research result revealed that getting lost caused another frustration: wasting time.</p><p>Finally, users reported the description next to art in the museum as being difficult to see; this was an additional cause of frustration.</p><p>Based on this information, I came up with the hypothesis that all of their pain points could be solved by a virtual map app.</p>"
+        },
+        {
+          "headline": "User research: Pain points",
+          "description": [
+          "<h5>1. Easy to get lost</h5>",
+          "<p>The museum is huge and has many selections, so even customers who have a paper map tend to get lost.</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>2. Not efficient</h5>",
+          "<p>When customers know what they want to see, they spend too much time looking for the art in the museum.</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>3. Difficult to see the description</h5>",
+          "<p>The art description plaque is quite small and difficult to read; the area around it is usually crowded, so customers have to wait to read the description.</p>"
+          ]
+        },
+        {
+          "headline": "Persona: Alex",
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/persona1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": [
+          "<h5>Problem statement</h5>",
+          "<p>Alex is an English teacher who is an enthusiast of art. He needs a map app that leads him to artwork; he does not want to waste time by getting lost in the museum due to its size.</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>User journey map</h5>",
+          "<p>Creating Alex’s journey map revealed that having a virtual map app would be helpful and lead to a more satisfying and enjoyable museum visit.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/user journey-museum.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Paper wireframes",
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/hand.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Making paper wireframes ensured that the process would work well for all of a user’s pain points.</p>"
+        },
+        {
+          "headline": "Digital wireframes",
+          "description": "<p>On the first digital wireframe phase, I made sure that every action would be simple and next steps were easy to understand, based on the pain points from the research.</p>",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/museum_wf_1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": "<p>Art is the main element for users when they use this app, so I focused on a  clean design and simplicity in leading users between steps.</p>",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/museum_wf_2.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Low-fidelity prototype",
+          "description": "<p>I decide to add hi-fi images to the lo-fi prototype in order to help users better understand the flow of the app. This prototype was then used in the first usability study.</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/museum/low-prototype.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Usability study: findings",
+          "description": [
+          "<p>I conducted two rounds of usability studies. What I learned from the first round helped to simplify from wireframes to mockups. Next, a high-fidelity prototype was used for the second round, and that revealed what aspects of the mockups needed refining.</p>",
+          "<h5>Round 1 findings</h5>",
+          "<p><ul><li>Overwhelming number of functions on one screen make users confused</li></ul><ul><li>  User need more accessible words when explaining a feature, i.e. call-to-action text in button</li></ul><ul><li>Users don’t always understand that they need to interact with elements, i.e. direction to click the button is unclear</li></ul></p>",
+          "<h5>Round 2 findings</h5>",
+          "<p><ul><li>  The “Cancel” and “Back” buttons are unnecessary</li></ul><ul><li> Inconsistency of action words in buttons makes users confused</li></ul></p>"
+          ]
+        },
+        {
+          "headline": "Mockups",
+          "description": [
+          "<h5>The screen when in front of the art</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/museum_mockups_1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Early design had an “Add Art” button on the screen when users arrived in front of the art, but none of the participants understood if the button meant to add art to favorites or something else. Additionally no one noticed that clicking on the image would show details about the art.</p><p>On the high-fidelity prototype, I removed the “Add Art” button, put a background under the button of the art’s detail and added an animation making the image bigger on hover to help the user notice that it is clickable.</p>"
+        },
+        {
+          "description": [
+          "<h5>The detail of the art</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/museum_mockups_2.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>After the first study, all users checked the detail page before choosing to add art to a route in the low-fidelity prototype; this drove the decision to put a bigger image to get more attention. After the second study, I prioritized key information about the art in a more concise (and therefore easier to comprehend) format. I also removed the “Back” button to make the interface more simple and let users clearly understand the next action.</p>"
+        },
+        {
+          "description": [
+          "<h5>Final designs</h5>"
+          ],
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/museum/museum_mockups_3.jpg"
+            },
+            {
+              "url": "assets/img/projects/museum/museum_mockups_4.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "High-fidelity prototype",
+          "description": "<p>The final high-fidelity prototype presented a more intuitive process for users and applied smart animation which led users to the next step correctly.</p><p>You can see the final prototype here: <a href=\"https://www.figma.com/proto/pEYzMBN3g1UgpVGjBHjGtk/2nd-visual-tour-app?page-id=820%3A3671&type=design&node-id=820-3673&viewport=-1258%2C525%2C0.5&scaling=scale-down&starting-point-node-id=1019%3A6067&mode=design&t=Hd02ts4rAlkx6482-1\" target=\"_blank\">High-fidelity prototype - The NY Museum Virtual Map App (Figma)</a></p>",
+          "images": [
+            {
+              "url": "assets/img/projects/museum/prototype_high-fe.mov",
+              "caption": "Final design prototype",
+              "video": true,
+              "layout": "v"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Take aways",
+          "description": [
+          "<h5>Impact</h5>",
+          "<p>Although this app is my personal project, the usability study revealed that this app met actual user needs.</p><p>One of participants of the usability study said:</p>",
+          "<q>I think this app is very useful in the museum because I get lost quite often. Also there are usually many people around the description of art so I can't see details about the art very well.<span> - Naoko</span></q>",
+          "<h5>What I learned</h5>",
+          "<p>Even before starting this project, I thought that I had a good understanding of users’ feelings. The usability study helped me uncover many areas where my initial assumptions were proven to be incorrect.</p>"
+          ]
+        }
+      ],
+      "related": [
+        "bookbook",
+        "astute"
+      ]
+    },
+    {
+      "id": "bookbook",
+      "category": 1,
+      "tags": [
+        "UI/UX design"
+      ],
+      "shortTitle": "BookBook - Used Book Marketplace",
+      "longTitle": "BookBook - Used Book Marketplace",
+      "startDate": "2022",
+      "endDate": "2023",
+      "client": "Case Study on Google UX Design Certificate Course",
+      "heroUrl": "assets/img/projects/bookbook/hero_1.jpg",
+      "description": "<p>BookBook is a used book marketplace, which I created as part of a case study for the Google UX Design Certificate Course, that specializes in books in various languages. The target users are immigrants living in the US. Users can search for books written in their native language and sell their books. The goal of BookBook is to make it easy to access books with an affordable cost for immigrants, as well as to sell books to people from the same country.</p>",
+      "blocks": [
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/macbook_using_2.jpg"
+            },
+            {
+              "url": "assets/img/projects/bookbook/Mobile-in-Hand.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Problems",
+          "description": "<p><ul><li>Books written in non-English are very expensive in the US. Usually the cost is more than double the original price and access to these books is very limited.</li></ul></p><p><ul><li>There are not many places that sell used books in the US.</li></ul></p><p><ul><li>Even if you can sell books to a bookstore, you won't make much money.</li></ul></p>"
+        },
+        {
+          "headline": "The goal",
+          "description": "<p>BookBook is designed to give easy access to used books with affordable cost for immigrants and to sell used books to people from the same country.</p><p>Users can leave a review for books they are selling and communicate with each other through BookBook social media features, such as likes or comments. These features let BookBook present an enjoyable buying/selling experience to users.</p>"
+        },
+        {
+          "headline": "User research: summary",
+          "description": "<p>I conducted user interviews and created empathy maps and an affinity diagram to organize the needs. I found that many users who live in the US are struggling to find books in their native language, and books tend to be expensive when they are new. There are a few used book stores online but they are mainly for books in English, which makes users feel frustrated. Also, some users use eBay for buying/selling books but it is not built specifically for books, so it does not have features that would make it an optimal experience for user who are bookworms</p>"
+        },
+        {
+          "headline": "User research: pain points",
+          "description": [
+          "<h5>1. New books are expensive</h5>",
+          "<p>Books written in language other than English are typically expensive in the US, with prices double or more of the original cost.</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>2. No place to buy/sell used books for immigrants</h5>",
+          "<p>The number of these places is limited and usually they pay only a fraction of the book’s original cost.</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>3. You can sell books on ebay but it's complicated</h5>",
+          "<p>An overwhelming majority of book shops in the US do not carry non-English books, and their process of buying used books is convoluted. Another option is eBay, but it is designed as a generic marketplace without features focused on selling books.</p>"
+          ]
+        },
+        {
+          "headline": "Persona: Aya",
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/persona.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": [
+          "<h5>Problem statement</h5>",
+          "<p>Aya is a bookworm from Japan who lives in the US. She needs a place to buy & sell used Japanese books easily (preferably online) because new Japanese books are too expensive to buy and there is really no place for her to sell her books.</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>User journey map</h5>",
+          "<p>I created Aya’s user journey map that helps to understand her experience and pain points.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/user journey-bookbook.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Sitemap",
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/sitemap.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The most important thing is that the user can find books in their language, so I planned to put a “shop in your language” section in the top of the home page.</p>"
+        },
+        {
+          "headline": "Paper wireframes",
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_pwf.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>I made paper wireframes for each page based on user pain points and journey maps.</p>"
+        },
+        {
+          "headline": "Digital wireframes",
+          "description":"<p>Creating digital wireframes showed if the app really solves users’ pain points and if they enjoy the experience.</p><p>The priority in this version on the home page is to give users the ability to find their native language so that they can start searching without difficulty.</p>",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_wf1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": "<p>Searching for books in the user’s own language from the home page is a priority on mobile as well.</p>",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_wf2.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Low-fidelity prototype",
+          "description": "<p>In a low-fidelity prototype I connected all the screens, starting from searching for books, all the way through to checkout as the primary user flow.</p><p>At first, I put a search box on only the home page, but then I changed that to a more simple search bar on the top of each screen that users are accustomed to seeing across the web.</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/low-fidelity.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Usability study: findings",
+          "description": [
+          "<p>I made three main findings from the usability study:</p>",
+          "<h5>1. Too simple flow</h5>",
+          "<p>Users felt this app flow was too simple – in other words, boring. Book lovers are gathering here, there is an opportunity to create a community.</p>",
+          "<h5>2. Is the book in the cart?</h5>",
+          "<p>It was difficult for users to see if the book was already in the cart, because the only feedback was that a number appeared next to the cart.</p>",
+          "<h5>3. Unsure if the order has been placed</h5>",
+          "<p>The final screen, “Order Placed”, was too similar to the one before it, “Order Review” so it was not clear to users that the order already had been placed.</p>"
+          ]
+        },
+        {
+          "headline": "Mockups",
+          "description": [
+          "<h5>Added social media features</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Users felt BookBook’s buying/selling flows were too simple. The assumption is that a lot of book lovers are gathering here and so there is an opportunity to create a community. To aid in this, I added social media features so that users would be able to communicate with each other: following, messages, leaving likes and comment for reviews.</p>"
+        },
+        {
+          "description": [
+          "<h5>Cart</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup2.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Since I identified that it was difficult for users to determine whether the book was already in the cart, I added the detail pop-up window for the cart contents and summary.</p>"
+        },
+        {
+          "description": [
+          "<h5>Placed order</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup3.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>As I mentioned above, usability studies showed that the the final screen, “Order Placed”, was too similar to the one before it, “Order Review”, so users were not able to tell if the order had been placed. I made changes to improve the design so that it would be easier for users to see that their order had indeed been placed, such as updating the layout for better information flow.</p>"
+        },
+        {
+          "description": [
+          "<h5>Final design: Desktop</h5>"
+          ],
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup4.jpg"
+            },
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup5.jpg"
+            },
+            {
+              "url": "assets/img/projects/bookbook/bookbook_mockup6.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+          "<h5>Final design: Mobile</h5>"
+          ],
+          "small-margin": true
+          },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/bookbook_finalmobile.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Typography",
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/Typography - Design System.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Colors & Iconography",
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/Colors & Iconography - Design System.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "High-fidelity prototype",
+          "description": "<p>The high-fidelity prototype followed the same user flow as the low-fidelity prototype, with the exception of a new feature that was added after the usability study: allowing users to communicate with each other.</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/bookbook/Hi-fi_bookmarketplace.mov",
+              "caption": "Final design prototype",
+              "video": true,
+              "layout": "h"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Takeaways",
+          "description": [
+          "<h5>Impact</h5>",
+          "<p>The target users were used to shopping online in general, but they were not satisfied with just the shopping aspect of BookBook. In addition to shopping, they also wanted to communicate with people who had the same interests.</p><p>One of the participants said:</p>",
+          "<q>I might not sell my books that much but I would love to buy used books in my mother language from BookBook. There are definitely people who need this service, especially in the US.  <span> - Alexey</span></q>",
+          "<h5>What I learned</h5>",
+          "<p>I found that, although it is quite obvious that a good design is part of a successful website, having unique features that enhance users' experience is a consideration that is just as important.</p>"
+          ]
+        }
+      ],
+      "related": [
+        "museumapp",
+        "astute"
+      ]
+    },
+    {
+      "id": "astute",
+      "category": 1,
+      "tags": [
+        "Logo design",
+        "Web design"
+      ],
+      "shortTitle": "Astute",
+      "longTitle": "Astute",
+      "startDate": "2020",
+      "endDate": "2020",
+      "client": "Astute Subprime Consulting",
+      "heroUrl": "assets/img/projects/astute/hero.jpg",
+      "description": "<p>Astute is a consulting firm that helps car dealerships to reach out to low-credit customers that they have not been able to acquire. Using their unique knowledge and network, they help car dealers reduce opportunity losses and increase sales. </p><p>I redesigned the logo and created a new website for them.</p>",
+      "blocks": [
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/astute/phone.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Logo Renewal",
+          "description": [ "<p>The motif of a puzzle piece and green shoots were used in the previous logo to represent their mission of solving problems and leading to new opportunities. I didn't change the motif used in the new logo, but designed it in a modern style.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/logo.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "Business Card",
+          "images": [
+            {
+              "url": "assets/img/projects/astute/card.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "Web Design",
+          "description": [
+            "<h5>Top Page</h5>",
+            "<p>I pick a large image of a car as a main visual for being recognized that a car-related business to the main target audience. The Take a Test button which determines how much sales the client is losing is placed on the top page and in the header for easy access.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/top.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Services</h5>",
+            "<p>Expressed what kind of services they provide with illustrations to understand easily.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/we.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Client's Problems</h5>",
+            "<p>By presenting problems that clients often face, it concretely evokes the problem and leads the way to solve them.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/problem1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Explanation of Steps </h5>",
+            "<p>I expressed the steps with playful illustrations.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/steps.jpg"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Take a Test </h5>",
+            "<p>After the client takes a test, the system shows a figure of how much sales they could have gotten if they got low-credit customers. It makes them motivated to solve the problem by showing the exact number.</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/test.mp4",
+              "video": true,
+              "layout": "h"
+            }
+          ],
+
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "description": [
+            "<h5>Whole Page</h5>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/astute/lp.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v"
+        }
+      ],
+      "related": [
+       "museumapp",
+        "bookbook"
+      ]
+    },
+    {
+      "id": "mari",
+      "category": 3,
+      "tags": [
+        "Graphic Design",
+        "Print Design"
+      ],
+      "shortTitle": "Business Card",
+      "longTitle": "Business Card",
+      "startDate": "2021",
+      "endDate": "2021",
+      "client": "Mari Shirai (Film Location Coordinator)",
+      "heroUrl": "assets/img/projects/mari/card_hero.jpg",
+      "description": "<p>I designed this business card for my friend, Mari Shirai, who works as a location coordinator in the filming industry. She goes to work with her dogs in her yellow Volkswagen van. She is kind of famous because of this to her coworkers and makes a strong impression on new clients. The business card reflects these elements of her style. </p>",
+      "blocks": [
+        {
+          "headline": "Mark and card",
+          "images": [
+            {
+              "url": "assets/img/projects/mari/card_3.jpg"
+            },
+            {
+              "url": "assets/img/projects/mari/card_hero2.jpg"
+            }
+          ],
+          "description": "<p>I sketched the Volkswagen van and her dogs as a hand-drawn illustration with her name in a playful font. This shows her character as friendly and outgoing.</p> <p> In addition to her name, I added her dog's names in the mark to give a topic for the conversation with the people who exchange the business cards.</p>",
+          "inline-img": true,
+          "layout": "v"
+        }
+      ],
+      "related": [
+        "audi",
+        "garagebook",
+        "reminisce"
+      ]
+    },
+    {
+      "id": "bathroom",
+      "category": 2,
+      "tags": [
+        "Interior design"
+      ],
+      "shortTitle": "Bathroom Renovation in NJ",
+      "longTitle": "Bathroom Renovation in Riveredge, NJ",
+      "startDate": "2022",
+      "endDate": "2023",
+      "client": "K Familiy",
+      "heroUrl": "assets/img/projects/n_bath/hero1_3.jpg",
+      "description": "<p>Designed the renovation of the bathroom for the K family in NJ. They just bought the 40s house and the bathroom hasn’t been remodeled since it was built.</p><p>They wanted to finish the renovation before they moved into the house, however, I suggested them to start designing after they live here for at least 3 months to find out how they use it and what the problems are.</p><p>The result of the suggestion met their satisfaction and now, they enjoy taking a bath every day.</p>",
+      "blocks": [
+        {
+          "headline": "Problem: The bathroom makes feel too tight and uncomfortable to use",
+          "description": [
+            "<p>The huge problem with this bathroom was “feels tight” for the family. There were many blockers at the family’s eye level, such as the walls of closets on both sides and the wall-mounted cabinet, that made them uncomfortable. They said, “The space we don’t want to enter”.</p><p>I focused on design that made the space more open feeling, bright, and bigger.</p>"
+          ]
+        },
+        {
+          "headline": "Before",
+          "description": "<p>The floor tile looked beautiful but many parts were missing and some places dented. There were closets on both sides of the entrance that was good for the plenty of storage, but that made feel tight from inside of the bathroom.</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/before6_1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "description": "<p>The right image shows how the bathroom feels tight when you enter there. Moreover the door opens inward makes more feel it narrow.</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/before5_1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Mood board",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/moodboard.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The family had lived in Nordic country for a while, so they preferred a minimum style and natural feelings</p>"
+        },
+        {
+          "headline": "Design",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/design2.jpg"
+            },
+            {
+              "url": "assets/img/projects/n_bath/design1.jpg"
+            },
+            {
+              "url": "assets/img/projects/n_bath/design4.jpg"
+            }
+          ],
+          "inline-img": true,
+           "small-margin": true,
+          "layout": "v"
+        },
+        {
+          "description": 
+          "<p>These are partial designs from the final designs(Three designs of 6). I usually make these design sheets for clients so that they can handout them to the general contractor directly.</p><p>To reach the final designs, I made the rough design to make sure the direction of the style(by Adobe Illustrator), then check the materials with the client.</p><p>The problem with this bathroom was too small and felt tight, I choose colors that feel more bright and reflected natural light. Mixed with several neutral tones and textured surfaces of wall tiles and the brass gold bathroom fixtures help make a natural atmosphere.</p><p>The walnut vanity cabinet became an accent material here and has enough storage for the family.</p>"
+        },
+        {
+          "headline": "Solutions",
+          "description": [
+          "<h5>1. Remove the closets, and moves the wall to expand inside</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/solution1_bathroom.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>There were closets on both sides of the entrance that made the space narrow. To solve it remove both of the closets and move the wall 12” to the hallway to expand the inside of the bathroom.</p><p>Because of this, the bathroom lose storage space, so I choose a vanity with as much storage capacity as possible.</p>"
+        },
+        {
+          "description": [
+          "<h5>2. Change the door to be outward and wider width</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/solution2_bathroom.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Changed the door to open outward from opening inward so that the layout can be more flexible.</p><p>Additionally, the door width was 24”, which was smaller than usual, so I changed the door width to 28” to feel more comfortable entering the bathroom.</p>"
+        },
+        {
+          "description": [
+          "<h5>3. Divide the space by clear glass wall and makes it spacious</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/solution3_bathroom.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>Moved the toilet to next to the bathtub because the family felt too tight when they sat on the toilet. And divide the space between the bathtub and the toilet by the clear glass wall so that they can have an open feeling.</p><p>The bathtub door with glass also helps to make the open feeling space.</p>"
+        },
+        {
+          "headline": "After",
+          "images": [
+            {
+              "url": "assets/img/projects/n_bath/after5_1.jpg"
+            },
+            {
+              "url": "assets/img/projects/n_bath/after6_1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "Takeaways",
+          "description": [
+          "<p>Whenever I work on the renovation, one thing that I do is even if it will be eventually removed or destroyed, measure the current vanity, window size and height, bathtub size, doors, and all other areas involved, and draw rough, hand-drawn drawings. This will be proof of existing problems, and that will be definitely solved by design.</p><p>The K Family sent me a text after the renovation ;</p>",
+          "<q>The bathroom has become our favorite place in the home. We’re taking bath and relax every day<span> - The K Family</span></q>",
+          "<p>The K Family and I communicated quite often and well in this project, and they are very satisfied with the result. I realized again how important communication with clients is, and then gathering information from that for doing design that meets their satisfaction.</p>"
+          ]
+        }
+      ],
+      "related": [
+        "m_kitchen",
+        "garageinterior"
+      ]
+    },
+    {
+      "id": "m_kitchen",
+      "category": 2,
+      "tags": [
+        "Interior design"
+      ],
+      "shortTitle": "Kitchen Renovation in NJ",
+      "longTitle": "Kitchen Renovation in Livingston, NJ",
+      "startDate": "2021",
+      "endDate": "2021",
+      "client": "M Familiy",
+      "heroUrl": "assets/img/projects/m_kitchen/after4.jpg",
+      "description": "<p>The M family bought a house in 2020 in Livingston, NJ, and moved from Manhattan. The kitchen hasn’t been remodeled since the 90s which is inconvenient to cook for them and is used unwelcome materials such as linoleum floor and laminate countertop.</p><p>The family love and enjoy cooking but their apartment’s kitchen in Manhattan was quite small and didn’t have enough storage for plates and tools. The new home's kitchen in NJ is spacious so they can renovate here as their dream kitchen. I was happy to help  make their cooking experience more fun and memorable through design.</p>",
+      "blocks": [
+        {
+          "headline": "The problems",
+          "description": [
+          "<h5>1. The stove is in dangerous place</h5>",
+          "<p>While cooking, sometimes the handle of a frying pan or a pot is hooked when people are walking through the doorway because the stove is next to the entrance of the kitchen</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>2.Too dark in the back of the kitchen</h5>",
+          "<p>The kitchen shape is a long narrow rectangle and there are no windows facing outside. That makes the back of the kitchen pretty dark and has a negative mood</p>"
+          ]
+        },
+        {
+          "description": [
+          "<h5>3. The doorway is narrow</h5>",
+          "<p>The doorway is narrow for walking through and, moving furniture and a refrigerator. It needs a more inviting feeling</p>"
+          ]
+        },
+        {
+          "headline": "Before",
+          "description": "<p>The family decided to do a renovation the moment they saw this kitchen because the kitchen design was outdated and the inside of the cabinets were already got damaged</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/before1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "description": "<p>Somehow the middle of the kitchen floor was heaped. We found out the cause of that was four layers of the linoleum floors when the demolition</p>",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/before2.jpg"
+            },
+            {
+              "url": "assets/img/projects/m_kitchen/before3.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Mood board",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/moodboard.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The house was built in the 1920s with many elements from that time, and the family preferred the mixed style of modern and classic. I made a mood board that focused on transition style with some natural textures and materials</p>"
+        },
+        {
+          "headline": "Design",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/design2.jpg"
+            },
+            {
+              "url": "assets/img/projects/m_kitchen/design1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true,
+          "layout": "v"
+        },
+        {
+          "description": 
+          "<p>Red oak is used on the entire floor of this house, I choose red oak floorings for the kitchen, too. The floor is the largest superficial area in this kitchen that would influence the impression, it took  time to check and chose the material.</p><p>To get more natural light and makes feel spacious, get rid of the upper cabinets next to the window, and chose a white color for the cabinets. The storages would decrease so I lay out the tall pantry in dark blue color as a focal point in this kitchen.</p><p>To make a warm atmosphere, I mix materials such as textured tiles with several beige tones, brass gold handles and knobs, and solid oak shelves.</p>"
+        },
+        {
+          "headline": "After",
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/after4.jpg"
+            },
+            {
+              "url": "assets/img/projects/m_kitchen/after1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v",
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/after2.jpg"
+            },
+            {
+              "url": "assets/img/projects/m_kitchen/after3.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Solutions",
+          "description": [
+    
+          "<h5>1. Moves the stove and lined all appliances in one line</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/solution_m_1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The stove and the range hood were moved next to the window which is safe to walk through the doorway, and more practical to cook.</p><p>Instead of the stove, the pantry was installed, providing plenty of storage space with an accent color as a focal point in this kitchen.</p>"
+        },
+        {
+          "description": [
+          "<h5>2. Install the skylight</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/solution_m_2.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The back of the kitchen had a depressed feeling, however, installing the skylight provides a lot of natural light and more positive feeling</p>"
+        },
+        {
+          "description": [
+          "<h5>3. Expand the doorway 100mm and make it an arched doorway</h5>"
+          ],
+          "small-margin": true
+          },
+          {
+          "images": [
+            {
+              "url": "assets/img/projects/m_kitchen/solution_m_3.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": 
+          "<p>The doorway was not able to through especially a refrigerator, so I expanded the doorway 100mm (4 inches) and make it an arched doorway to give more transition style atmosphere.</p><p>As a result, the arched doorway is one of the important design elements in this kitchen with an inviting feeling.</p>"
+        },
+        {
+          "headline": "Takeaways",
+          "description": [
+          "<p>This project was the first renovation project in the US for me, there were so many things different from the way of working as a interior designer in Japan.</p><p>Unlike Japan, I was able to choose materials and kitchen equipment from a lot of choices, but at the same time, I have to have broad knowledge about those. That was challenging for me because it took long time researching but I really enjoyed learning new things.</p><p>One thing I can say for sure, the most important thing to design that knowing well what clients want is the same between the US and Japan. </p>"
+          ]
+        }
+      ],
+      "related": [
+        "bathroom",
+        "garageinterior"
+      ]
+    },
+    {
+      "id": "garageinterior",
+      "category": 2,
+      "tags": [
+        "Art Direction",
+        "Branding",
+        "Interior Design"
+        
+      ],
+      "shortTitle": "The Garage House",
+      "longTitle": "The Garage House",
+      "startDate": "2014",
+      "endDate": "2019",
+      "client": "infist Design co., Ltd",
+      "heroUrl": "assets/img/projects/garage/interior/kami1.jpg",
+      "description": [
+        "<p>The garage house is a rental apartment with an indoor garage for car enthusiasts. Unlike regular rental garages where you just store a car, this garage looks beautiful, as if your car is displayed in a showroom, and you can live upstairs.</p>",
+        "<p>This brand started in 2014, and currently there are 40 rooms with six properties in the metropolitan Tokyo area. It has become popular with a constant 98% occupancy and a long waiting list.</p>",
+        "<p>I was responsible for creating concepts, interior design, and graphic design from the beginning of this project. </p>"
+      ],
+      "blocks": [
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/garage/interior/hanaha1.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/kami2.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/katsu6_1.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/kami4.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Problem: There are no garages for fancy cars in metropolitan Tokyo",
+          "description": [
+            "<p>Since the housing in the metropolitan Tokyo area is smaller than the suburbs, people who own a car cannot have a garage on the premises and have to rent parking space far from home. </p>",
+            "<p>Although Japanese car enthusiasts tend to prefer to watch their cars in their spare time and maintain the cars by themselves, they cannot have those experiences at their home. Therefore, we thought there was a market for the garage house that could provide rich experiences for car enthusiasts.</p>",
+            "<p>Interestingly, this exact frustration was experienced by the president of Infist Design (who is a car enthusiast himself) when purchasing his car, the Audi R8GT. We were convinced that it was not only him who was feeling the frustration and so we decided to launch the garage house brand for car enthusiasts.</p>"
+          ]
+        },
+        {
+          "headline": "Market Research / Concept Planning / Persona",
+          "description": [
+            "<p>As our design firm was a small-scale one,  I conducted market research, concept planning, and created persona sheets. I then shared all my findings with my team and we reached a consensus on how to proceed with the branding.</p>"
+          ]
+        },
+        {
+          "description": [
+            "<h5>Market Research</h5>",
+            "<p>In Japan, European cars are much more expensive than Japanese cars. For example, even the Audi Q5 is in the category of ultra-luxury cars. I researched the number of popular European cars owned by car enthusiasts in metropolitan Tokyo. As a result, I discovered that</p>",
+            "<ul><li>the number of European cars sold in metropolitan Tokyo was four times more than suburban areas</li><li>the number of indoor rental garages in metropolitan Tokyo was eight times  less than suburban areas</li></ul>",
+            "<p>I researched more about the small number of indoor garages in metropolitan Tokyo and most of them looked like a warehouse made from a tin roof and corrugated wall. Clearly, this kind of interior did not match up with luxury European cars, and owners deserved a better design.</p>"
+          ]
+        },
+        {
+          "description": [
+            "<h5>Concept Planning</h5>",
+            "<p>Based on the market research, I defined the principal brand concept:</p>",
+            "<q> The garage house which lives with your beloved car</q>",
+            "<p>from the idea that there is a garage+house combo where you can live and store your car in style. For car enthusiasts who cherish and take care of their cars like family, I aimed to create a space where</p>",
+            "<ul><li>the car is in a good environment</li><li>the tenant feels comfortable</li><li>the tenant wants to show off the garage to friends and family</li></ul>"
+          ]
+        },
+        {
+          "description": [
+            "<h5>Persona</h5>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/garage/interior/persona.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "description": [
+            "<p>I created detailed tenant personas that helped my team members to imagine tenants realistically. </p>",
+            "<p>Additionally, since motorcycle enthusiasts in Japan have similar behavior patterns as car enthusiasts, I added them to the collection of personas.</p>"
+          ]
+        },
+        {
+          "headline": "Presentation to landowners",
+          "description": [
+            "<p>To build a garage house, we need to make a proposition to the landowner that the garage house is attractive as an investment.</p>",
+            "<p>Some of the landowners already had made investments in general apartments, and they were looking for a new type of property rental business.</p>",
+            "<p>To help with the pitch, I created a brochure that explained to landowners the reasons why the garage house would be the better investment choice compared to general apartments.</p>",
+            "<p>Since the type of garage house that can be built varies based on location, environment and budget, support documentation to factor in these variables was included with the brochure.</p>"
+          ]
+        },
+        {
+          "headline": "Interior design",
+          "images": [
+            {
+              "url": "assets/img/projects/garage/interior/interior1.jpg"
+            },
+            {
+              "url": "assets/img/projects/garage/interior/interior2.jpg"
+            },
+            {
+              "url": "assets/img/projects/garage/interior/interior3.jpg"
+            },
+            {
+              "url": "assets/img/projects/garage/interior/interior4.jpg"
+            }
+          ],
+          "description": [
+            "<p>I collaborated with the architect on the design process to help make the final architectural drawing. The layout of the building on the premises revolved around the car and every other part was based on its placement. As the interior designer, I decided on the color scheme and materials for the interior/exterior from many samples.  I avoided eccentric colors and materials such as red doors, striped wallpaper, etc., and considered the overall harmony to create a simple and tasteful space.</p>",
+            "<p>Because it increases the construction cost, rental apartments in Japan usually avoid using tile as the floor material in the garage. However, the tenant's satisfaction is the key factor in this brand, and so I went with using tile and accenting with a spotlight from the ceiling to make the car appear as if it were displayed in the showroom.</p>"
+          ],
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/garage/interior/hanaha1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/garage/interior/hanaha2.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/hanaha1.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/hanaha3.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/hanaha4.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/garage/interior/kami1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/garage/interior/kami1.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/kami2.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/kami3.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/kami4.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/garage/interior/katsu1_1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/garage/interior/katsu2_1.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/katsu3_1.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/katsu5_1.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/katsu4_1.jpg"
+            }
+          ],
+          "inline-img": true,
+          "small-margin": true
+        },
+        {
+          "images":[
+            {
+              "url":"assets/img/projects/garage/interior/katsu7_1.jpg"
+            },
+            {
+              "url":"assets/img/projects/garage/interior/katsu8_1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "What I learned from these experiences",
+          "description": [
+            "<p>The landowner's goal is to make high-profit rent income, and for this, the number of units on the lot should be maximized. This approach ends up making each room quite narrow and thus a creative and unique layout is impossible to achieve. Even though a room might have a good interior, this is still not attractive for car enthusiasts who are the focus of this brand.</p>",
+            "<p>The first few properties took over six months to reach full occupancy after completion of construction. This happened because the landowner's goal of a high-profit ratio conflicted with the concept to create for the car enthusiasts.</p>",
+            "<p>Starting from the third property that set importance to show cars beautifully, 100% occupancy was achieved before completion of construction and remained full all the time with a waiting list for future occupancy. Therefore landowners got rent income from right after completion of construction and they did not need to spend extra money advertising to new tenants. Both contribute greatly to increasing the profit ratio of rent income. </p>",
+            "<p>After this discovery, we pivoted the focus of the presentation to better explain to the owner seeking a high-profit ratio of rental income, the importance of showcasing cars and its positive effect on attracting prospective tenants.</p>"
+          ]
+        }
+      ],
+      "related": [
+        "garagebook",
+        "audi",
+        "m_kitchen"
+      ]
+    },
+    {
+      "id": "soundpanels",
+      "category": 2,
+      "tags": [
+        "Research",
+        "Product Design",
+        "Print Design"
+
+      ],
+      "shortTitle": "Sound Absorbing Panels",
+      "longTitle": "Sound Absorbing Panels",
+      "startDate": "2015",
+      "endDate": "2019",
+      "client": "infist Design co., Ltd",
+      "heroUrl": "assets/img/projects/tone/tone_hero.jpg",
+      "description": [
+        "<p>Sound Absorber Wall Panels have two primary functions: to absorb unpleasant echo which reflects from walls and to be a beautiful design as a piece of interior.</p>",
+        "<p>They are easily installed by even not professional users and customers can choose a design based on the level of sound absorption. As an art director, I did research, product design, print design.</p>"
+      ],
+      "blocks": [
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_im3.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_t.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_six.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Problems of sound absorbers and product design goals",
+          "description": [
+            "<p>The opportunity to easily create and distribute one's own music on Youtube, SoundCloud, etc. has increased, and at the same time, devices and applications for recording and editing at home are also easy to buy. However, the majority of sound-absorbing panels that are sold for professional uses look like a big kitchen sponge and are difficult to install for ordinary people; there are no beautiful designs and the ones that exist don't match the home interior.</p>",
+            "<p>I decided that creating sound-absorbing panels that are for ordinary people who record at home and at the same time can be considered as part of the interior was a solution for both absorbing sound and interior decorating, in addition to easy self-installation.</p>"
+          ]
+        },
+        {
+          "headline": "Research and synthesis",
+          "description": [
+            "<p>I tested the sound absorption effect with lots of materials:</p>",
+            "<ul><li>fabric with polyurethane foam</li><li>wood with polyurethane foam</li><li>recycled board from plastic water bottles</li></ul> ",
+            "<p>I discovered differences in the effects when these were located on the walls or ceiling and in the corners of the room.</p> ",
+            "<p>In these materials, the recycled board from plastic water bottles was easy to manufacture at a factory and most lightweight, as well as easy to install for ordinary users, so we adopted this material for our products.</p> ",
+            "<p>I showed our prototype to the person in charge of the soundproofing section in numerous musical instrumental stores. They were impressed by the designs and materials; additionally, this type of sound-absorbing panel design was new for them, so I was sure that we were headed in the right direction with our product.</p> ",
+            "<p>During the research process, we found that not only music-related people need the sound absorption panel, but we also found that there was demand for this kind of product in spaces where people gather and speak, i.e. conference rooms and restaurants. </p>"
+          ]
+        },
+        {
+          "headline": "Product design",
+          "description": [
+            "<h5>Challenging points</h5>",
+            "<p>For the user, the sound-absorbing panel had to:</p>",
+            "<ul><li>be a beautiful art piece as an interior</li><li>possess a high sound-absorption effect</li><li>be easy to mount on the wall</li></ul>",
+            "<p>From a manufacturing and cost perspective, it was crucial for the panel:</p>",
+            "<ul><li>to be efficiently sized to manufacture from the panel</li><li>to be efficiently sized to reduce shipping costs</li><li>to be at an appropriate price point</li></ul>",
+            "<p>Lastly, by expanding the target segment, we discovered that there was a need for the product to be modular because it could be used anywhere from a small living room to a large venue such as a restaurant.</p>"
+          ]
+        },
+        {
+          "description": "<h5>Solutions for design, effective absorption, size</h5>",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_sq.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_t.jpg"
+            }
+          ],
+          "small-margin": true
+        },
+        {
+          "description": "<p>To develop a size that can be used on a surface of any size, I created distinct designs for the panels utilizing a geometric pattern. These designs can adapt to any size of a wall by increasing or decreasing the number of elements in the pattern; they can also be used to express a unique design. Also, a new design was created by adding a variable depth to the panel, which allowed for a difference in the sound absorption effect and made the design more flexible.</p>"
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_5.jpg"
+            }
+          ],
+          "small-margin": true
+        },
+        {
+          "description": "<p>Moreover, since the sound absorption effect is enhanced by an air layer, I designed not only flat products but also three-dimensional products with an air pocket so that users can choose depending on the level of sound absorption that they need.</p> <p>In Japan, plasterboards are mainly used as the interior wall material and are easily pierced by pushpins. When renting, the tenant would be required to pay extra when they leave the apartment if they made holes in the walls. Because of this, I decided to use \"insect-pins\" for mounting the product to the wall. These make only minimum holes and the user can tap with a hammer to mount instead of drilling the wall.</p> <p>Additionally, the three-dimension version was designed to have the top panel easily removable in order to mount to the wall with pins.</p> <p>The material price was rather high, and thus efficiency of material usage was important. By having close communication with the manufacturing factory, we were able to calculate the most efficient size and arrangement when cutting from the source recycled board.</p> ",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/tone/tone_im2.jpg"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_im4.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "description": [
+            "<h5>Solutions for cost</h5>",
+            "<p>I was able to avoid wasting material by designing within the optimal size. The products were able to be delivered to users with minimal shipping fees because they were lightweight and stackable.</p> <p>Another goal was also to reduce costs related to storing already made products. This was accomplished by cooperating with the manufacturing factory and creating a production line that helped minimize stock and only manufacture after receiving orders from customers.</p>"
+          ]
+        },
+        {
+          "headline": "Verification of the products",
+          "description": "<p>I introduced prototypes to editors of various music periodicals, through which we got an opportunity to feature our project in magazines and showcase the testing of absorption effect with sound artists and acoustic professionals. They showed great satisfaction in the result of the absorption effect and described the product as being \"perfect for recording at home\".</p>",
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/tone/sounddesign.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Conclusion",
+          "description": " <p>After the product went on sale at musical instrumental stores and via e-commerce, sales were increasing rapidly. After only a few months on the market, we received numerous requests to install in restaurants and universities. Everything was going great... but unfortunately, due to unforeseen circumstances related to importing materials from Malaysia in 2019, the product was discontinued as soon as the materials stock was exhausted in Japan.</p>"
+        },
+        {
+          "gallery": [
+            {
+              "url": "assets/img/projects/tone/tone_3.jpg",
+              "caption": "installed in a meeting room of the music event production"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_1.jpg",
+              "caption": "installed in a class room of the university"
+            },
+            {
+              "url": "assets/img/projects/tone/tone_2.jpg",
+              "caption": "installed flat panels in a garage"
+            }
+          ]
+        }
+      ],
+      "related": [
+      	"furniture",
+        "garageinterior"
+      ]
+    },
+    {
+      "id": "audi",
+      "category": 3,
+      "tags": [
+        "Art Direction",
+        "Shooting Direction",
+        "Graphic Design"
+      ],
+      "shortTitle": "Audi Shinjuku Image Book",
+      "longTitle": "Audi Shinjuku Image Book",
+      "startDate": "2015",
+      "endDate": "2015",
+      "client": "Audi Shinjuku, infist Design co., Ltd",
+      "heroUrl": "assets/img/projects/audi/audi_hero3.jpg",
+      "description": "<p>The leaflet created in collaboration with The incell Garage House when the new Audi TT was launched in Japan in 2015. Pictures in the leaflet bring to mind the garage of the Audi TT owner. This leaflet was used as a sales tool for Audi Shinjuku and The incell Garage house.</p> <p>As an art director, I conducted photo shooting and graphic design.</p>",
+      "blocks": [
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/audi/audi1.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "Photo shooting direction",
+          "description": "<p>I made sheets that show the process of the photoshoot and share them with team members a few days before the shooting. Audi Shinjuku provided three cars to this shooting for different kinds of style of life with the garage. The first sheet shows the concepts of the photoshoot for each car and what kind of equipment we need, the second one is the time table in which team members can check what suppose to do in a certain time in the photoshoot, and the third one shows from which direction we would shoot. Also, I drew the storyboard for every shot.</p>"
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/audi/audi4.jpg"
+            }
+          ],
+          "small-margin": true,
+          "inline-img": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/audi/audi0.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "Graphic design",
+          "description": "<p>The layout was designed to be a sales tool for both, The garage house and Audi Shinjuku.</p> <p>As a result, preview audiences to the garage house were increased by Audi's referral and the new garage house reached full occupancy.</p>"
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/audi/audi2.jpg"
+            }
+          ]
+        }
+      ],
+      "related": [
+        "garagebook",
+        "reminisce",
+        "mari"
+      ]
+    },
+    {
+      "id": "garagebook",
+      "category": 3,
+      "tags": [
+        "Art Direction",
+        "Shooting Direction",
+        "Graphic Design"
+      ],
+      "shortTitle": "The Garagehouse Image Book",
+      "longTitle": "The Garagehouse Image Book",
+      "startDate": "2018",
+      "endDate": "2018",
+      "client": "infist Design co., Ltd",
+      "heroUrl": "assets/img/projects/garage/book/garage01.jpg",
+      "description": "<p>The Garagehouse is a brand of rental apartment with a garage in Tokyo, Japan. I created an image book to enhance brand awareness and sales after the brand built five buildings.</p><p>The brand made an image book every time when each building was completed. This image book is a collection of five buildings and conveys the brand message with visuals through this image book.</p><p>As an art director, I conducted photo shooting and graphic design for each building’s image book.</p><p>You can see the interior design work of The Garagehouse form here: <a href=\"https://asamitm.com/project/garageinterior\" target=\"_blank\">The Garage House - Interior Design</a></p>",
+      "blocks": [
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/garage/book/garage04.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "Photo shooting direction",
+          "description": "<p>I made sheets that show the process of the photoshoot and share them with team members a few days before the shooting. Audi Shinjuku provided three cars to this shooting for different kinds of style of life with the garage. The first sheet shows the concepts of the photoshoot for each car and what kind of equipment we need, the second one is the time table in which team members can check what suppose to do in a certain time in the photoshoot, and the third one shows from which direction we would shoot. Also, I drew the storyboard for every shot.</p>"
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/garage/book/garage02.jpg"
+            },
+            {
+              "url": "assets/img/projects/garage/book/garage03.jpg"
+            },
+            {
+              "url": "assets/img/projects/garage/book/garage05.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "Graphic design",
+          "description": "<p>The layout was designed to be a sales tool for both, The garage house and Audi Shinjuku.</p> <p>As a result, preview audiences to the garage house were increased by Audi's referral and the new garage house reached full occupancy.</p>"
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/garage/book/garage06.jpg"
+            }
+          ]
+        }
+      ],
+      "related": [
+        "audi",
+        "reminisce",
+        "mari"
+      ]
+    },
+    {
+      "id": "reminisce",
+      "category": 3,
+      "tags": [
+        "Logo Design",
+        "Graphic Design"
+      ],
+      "shortTitle": "Reminisce",
+      "longTitle": "Reminisce",
+      "startDate": "2014",
+      "endDate": "2018",
+      "client": "Hair Design Reminisce",
+      "heroUrl": "assets/img/projects/reminisce/name_hero2.jpg",
+      "description": "<p>Reminisce is a hair salon in Saitama, Japan. The owner started and built his own hair salon in his hometown. I created their logo, business card, and tapestry. I used the salon's unique architectural elements as inspiration for my design. I also collaborated with my design team on the hair salon's architecture and construction.</p>",
+      "blocks": [
+        {
+          "headline": "Logo",
+          "images": [
+            {
+              "url": "assets/img/projects/reminisce/logo_hero.jpg"
+            },
+            {
+              "url": "assets/img/projects/reminisce/logo_img.jpg"
+            }
+          ],
+          "description": "<p>The word \"reminisce\" is represented by the tea tree in the language of flowers. The owner's parents run a green tea farm and factory, and the hair salon serves a cup of that green tea for each customer.</p> <p>The concept behind the logo expresses the owner's well-honed creativity and the design of a modern store that stands out in a quiet area surrounded by green tea fields.</p>"
+        },
+        {
+          "headline": "Business card",
+          "images": [
+            {
+              "url": "assets/img/projects/reminisce/name_hero2.jpg"
+            }
+          ],
+          "description": "<p>Business cards play a vital role in a brand's identity in Japan. The card is cut to resemble the architecture of the salon and provides a strong first impression on the person who receives it.</p>"
+        },
+        {
+          "headline": "Tapestry",
+          "images": [
+            {
+              "url": "assets/img/projects/reminisce/tape_hero2.jpg"
+            },
+            {
+              "url": "assets/img/projects/reminisce/tape_hero.jpg"
+            }
+          ],
+          "description": "<p>Most people get around by car in this area, so the structure has to be recognized as a hair salon from the passing car. I designed the large tapestry that is placed on the outer wall of the salon.</p> <p>The salon targets primarily female customers and the design focuses on a woman model. The concept is that a person who appears inside a frame is perceived as a painting - a work of art - and hints to potential clients that they will be transformed when visiting the salon.</p>"
+        },
+        {
+          "headline": "Result",
+          "description": "<p>Most people get around by car in this area, so the structure has to be recognized as a hair salon from the passing car. I designed the large tapestry that is placed on the outer wall of the salon.</p> <p>The salon targets primarily female customers and the design focuses on a woman model. The concept is that a person who appears inside a frame is perceived as a painting - a work of art - and hints to potential clients that they will be transformed when visiting the salon.</p>"
+        }
+      ],
+      "related": [
+        "audi",
+        "garagebook",
+        "mari"
+      ]
+    },  
+    {
+      "id": "furniture",
+      "category": 2,
+      "tags": [
+        "Marketing",
+        "Furniture Design",
+        "Graphic Design",
+        "Shoothing Direction"
+      ],
+      "shortTitle": "Furniture Design - Photo Collection",
+      "longTitle": "Furniture Design - Photo Collection",
+      "startDate": "2002",
+      "endDate": "2008",
+      "client": "MK Maeda Co.,Ltd, In The Room, Otsuka Furniture, Nafco Two-One Style, ACTUS, etc,.",
+      "heroUrl": "assets/img/projects/furniture/NEO_1.jpg",
+      "description": "<p>My first design career was in furniture design. The images below are part of my work.</p><p>I learned a lot from this first career as a designer, especially the design process in industrial design from concepts to finish, such as marketing, research, making concepts and persona, product design, photo shoot direction, graphic design for sales catalogs, and visual merchandising for clients.</p><p>These experiences became the basis of my professional.</p>",
+      "blocks": [
+        {
+          "headline": "Fruh",
+          "description": [ 
+             "<p>2004 / Kitchen cabinet</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/furniture/dining1.jpg"
+            },
+            {
+              "url": "assets/img/projects/furniture/dining2.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "h"
+        },
+        {
+          "headline": "Illumy",
+          "description": [ 
+             "<p>2006 / TV Stand & Entertainment Center</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/furniture/IMY_image2.jpg"
+            }
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/furniture/IMY_image1.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Frem",
+          "description": [ 
+             "<p>2004 / TV Stand & Entertainment Center</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/furniture/FEM_6.jpg"
+            },
+            {
+              "url": "assets/img/projects/furniture/FEM_4.jpg"
+            }
+          ],
+          "inline-img": true,
+          "layout": "v"
+        },
+        {
+          "headline": "Neon",
+          "description": [ 
+             "<p>2005 / TV Stand & Entertainment Center</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/furniture/NEO_2.jpg"
+            }
+          ],
+          "inline-img": true
+        },
+        {
+          "headline": "Axiom",
+          "description": [ 
+             "<p>2005 / Desk</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/furniture/AOM_1.jpg"
+            }
+          ]
+        },
+        {
+          "headline": "Rivus",
+          "description": [ 
+             "<p>2008 / Desk and Drawers</p>"
+          ],
+          "small-margin": true
+        },
+        {
+          "images": [
+            {
+              "url": "assets/img/projects/furniture/desk.jpg"
+            }
+          ],
+          "inline-img": true
+        }
+
+      ],
+      "related": [
+        "soundpanels",
+        "garageinterior",
+        "m_kitchen"
+      ]
+    }
+
+  ]
+}

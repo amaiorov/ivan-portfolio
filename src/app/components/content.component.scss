@@ -1,0 +1,26 @@
+@import '/src/assets/scss/variables.scss';
+
+:host {
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 100vh;
+  &:not(.home) {
+    // padding-top: 245px !important;
+    padding-top: 168px !important;
+    @media (max-width: $break-medium) {
+      padding-top: 60px !important;
+    }
+  }
+  @include mq-all;
+  > div {
+    position: relative;
+    // border: 1px solid green;
+    // overflow: hidden;
+    // min-height: 200vh;
+    // transform-origin: top center;
+    > div {
+      // border: 1px solid blue;
+    }
+  }
+}

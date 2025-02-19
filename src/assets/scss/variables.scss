@@ -1,0 +1,102 @@
+$break-small: 375px;
+$break-medium: 1023px;
+$break-large: 1199px;
+$break-xlarge: 1439px;
+
+$text: #282727;
+$off-white: #D8D8D8;
+$off-black: #222121;
+$black: #000;
+$light-brown: #FFFDF6;
+$white-alpha: rgba(255, 255, 255, 0.5);
+$light-brown-alpha: rgba(240, 238, 228, 0.7);
+$dark-brown: #F6F3E9;
+$gray-97: #979797;
+$gray-quote: #808088;
+
+@mixin mq-standard {
+  // border: 1px solid blue;
+  // width: 1440px;
+  width: 100vw;
+  // padding: 0 150px;
+  // padding: 0 60px;
+  padding: 0 16.6667%;
+}
+
+@mixin mq-xlarge {
+  @media (max-width: $break-xlarge) {
+    // border: 1px solid blue;
+    // width: 1200px;
+    width: 100vw;
+    // padding: 0 100px;
+    // padding: 0 60px;
+    padding: 0 16.6667%;
+  }
+}
+
+@mixin mq-large {
+  @media (max-width: $break-large) {
+    // border: 1px solid blue;
+    // width: 960px;
+    width: 100vw;
+    // padding: 0 50px;
+    // padding: 0 60px;
+    padding: 0 16.6667%;
+  }
+}
+
+@mixin mq-medium {
+  @media (max-width: $break-medium) {
+    // border: 1px solid yellow;
+    width: 100vw;
+    // padding: 0 50px;
+    // padding: 0 36px;
+    padding: 0 32px;
+  }
+}
+
+@mixin mq-small {
+  @media (max-width: $break-small) {
+    // border: 1px solid green;
+    width: 100vw;
+    padding: 0 32px;
+  }
+}
+
+@mixin mq-all {
+  @include mq-standard;
+  @include mq-xlarge;
+  @include mq-large;
+  @include mq-medium;
+  @include mq-small;
+}
+
+@mixin no-image {
+  &.no-image {
+    position: relative;
+    height: 0;
+    // padding-bottom: 56.25%;
+    padding-bottom: 64.81%;
+    &:before {
+      content: 'Image stolen by cats';
+      background: $dark-brown;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      font-style: italic;
+    }
+    &:after {
+      content: '';
+      background: no-repeat center/auto 100% url('~assets/img/cat.svg');
+      position: absolute;
+      bottom: -5px;
+      right: 0;
+      width: 50px;
+      height: 60px;
+    }
+  }
+}

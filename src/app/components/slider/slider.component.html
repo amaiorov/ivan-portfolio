@@ -1,0 +1,25 @@
+<ul class="gallery" #gallery [style.left]="'-' + (100 * activeSlide) + '%'">
+  <li *ngFor="let slide of slides; let i = index" [ngClass]="{active: i === activeSlide}">
+    <!-- <img src="{{ slide.url }}" /> -->
+    <!-- <img [src]="slide.url" onError="this.nextSibling.classList.add('no-image')" /> -->
+    <!-- <div class="image" [ngStyle]="{'background-image': 'url(' + slide.url + ')'}" [ngClass]="{'no-image': !slide.url}"></div> -->
+    <div class="image">
+      <picture>
+        <source media="(max-width: 480px)" srcset="{{ getSrc(slide.url, 480) }}">
+        <source media="(max-width: 768px)" srcset="{{ getSrc(slide.url, 768) }}">
+        <source media="(max-width: 1440px)" srcset="{{ getSrc(slide.url, 1440) }}">
+        <source media="(max-width: 1920px)" srcset="{{ getSrc(slide.url, 1920) }}">
+        <source srcset="{{ slide.url }}">
+        <img src="{{ slide.url }}" loading="lazy" onError="this.parentElement.parentElement.classList.add('no-image')" alt="{{ slide.caption || slide.url }}" />
+      </picture>
+    </div>
+    <span>{{ slide.caption }}</span>
+  </li>
+</ul>
+
+<ul class="pagination">
+  <!-- <li class="prev" (click)="goto(activeSlide - 1)" [ngClass]="{disabled: activeSlide <= 0}">prev</li> -->
+  <li *ngFor="let slide of slides; let i = index" [ngClass]="{active: i === activeSlide}">Slide {{ i }}</li>
+  <!-- <li class="next" (click)="goto(activeSlide + 1)" [ngClass]="{disabled: activeSlide + 1 >= totalSlides}">next</li> -->
+</ul>
+<!-- <h3>{{isAnimating}}</h3> -->

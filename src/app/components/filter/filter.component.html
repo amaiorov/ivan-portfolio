@@ -1,0 +1,13 @@
+<ul class="categories">
+  <li [ngClass]="{selected: !currentCategory || currentCategory === 'home'}">
+    <a routerLink="/" (click)="setCategory('')">Home</a>
+  </li>
+  <li *ngFor="let category of categories" [ngClass]="{selected: currentCategory?.route === category?.route}" class="category">
+    <a routerLink="{{ '/' + category.route }}">{{ category.name }}</a>
+  </li>
+  <li [ngClass]="{selected: currentCategory === 'about'}">
+    <a routerLink="/about">About</a>
+  </li>
+  <!-- <li><a routerLink="/contact">Contact</a></li> -->
+  <li><a href="#" class="linkedin" target="_blank"><img src="assets/img/linked-in.svg" alt="LinkedIn" /></a></li>
+</ul>
